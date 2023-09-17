@@ -1,0 +1,167 @@
+/* Universal Styling */
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+/* Body styling */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* -----------------Header styles--------------------- */
+.header {
+  display: flex;
+}
+.navbar {
+  position: fixed;
+  box-shadow: 2px 2px 2px rgb(199, 199, 199);
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+}
+.logo-container {
+  margin-left: 2px;
+}
+.logo-img {
+  padding: 5px;
+  margin: 5px;
+}
+.link-container {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  padding: 10px 3px;
+  margin: 0 5px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  font-size: medium;
+}
+.nav-buttons {
+  margin: 10px;
+  padding: 5px;
+}
+.signin-btn {
+  outline: none;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0 10px;
+}
+.signin-btn:hover {
+  cursor: pointer;
+}
+
+/* 10px 20px -> (t,b) -- (l,r) */
+/* 10px 20px 10px 20px -> t, r, b, l */
+.signup-btn {
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  margin: 0 10px;
+  border-radius: 20px;
+  background-color: rgb(215, 213, 213);
+}
+.signup-btn:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+/* -----------------Styling for Main-----------------*/
+.main {
+  display: flex;
+  margin: 1px 100px;
+}
+
+/* Banner Styles */
+.banner {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2px;
+}
+.left-section {
+  width: 50%;
+  margin-top: 170px;
+  justify-content: flex-start;
+}
+.banner-heading {
+  font-weight: 700;
+  font-size: 4em;
+  margin-bottom: 2px;
+}
+.small-text {
+  font-weight: 400;
+  font-size: medium;
+}
+.right-section {
+  width: 50%;
+  margin-top: 73px;
+}
+.banner-img {
+  height: 600px;
+}
+
+/* ---------------Buttons of Main------------------*/
+.banner-btn-box {
+  margin: 30px -10px;
+}
+.start-btn {
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+.start-btn:hover {
+  cursor: pointer;
+}
+
+.talk-btn {
+  outline: none;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0 10px;
+  font-size: medium;
+}
+
+.talk-btn:hover {
+  cursor: pointer;
+}
+
+/* ----------------Footer Styles----------------- */
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-footer > a {
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: small;
+}
+.right-footer {
+  font-weight: bold;
+  font-size: small;
+  margin-right: 12px;
+}
